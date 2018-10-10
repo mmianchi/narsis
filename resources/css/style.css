@@ -13,3 +13,67 @@ font-size: 20px;
 font-weight: 300;
 text-rendering: optimizeLegibility;
 }
+.header {
+  background-image: linear-gradient(
+    to left bottom,
+    rgba(194, 240, 219, 0.7),
+    rgba(82, 78, 78, 0.7)),
+    url("/resources/img/main.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: top;
+  height: 90vh;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 10%;
+  top:5%;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  text-transform: uppercase;
+  top:5%;
+  right:10%;
+}
+li {
+  display: inline-block;
+  padding:10px;
+
+}
+li a {
+   text-decoration: none;
+}
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+ 
+}
+.header-text>h1 {
+  text-transform: uppercase;
+}
+.btn{
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.btn-orange {
+  background-color: red;
+  color: white;
+}
+ .btn-transparent {
+   color: red;
+   border: 1px solid red; 
+ }
